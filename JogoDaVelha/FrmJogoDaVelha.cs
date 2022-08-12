@@ -329,6 +329,7 @@ namespace JogoDaVelha
                 if (count == 9 && fimDeJogo == false)
                 {
                     lblVez.Text = $"Fim de Jogo!\nEMPATE";
+                    pictureBox3.Visible = true;
                     fimDeJogo = true;
                 }
             }
