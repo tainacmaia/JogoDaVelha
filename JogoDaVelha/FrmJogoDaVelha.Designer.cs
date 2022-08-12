@@ -57,7 +57,7 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Pristina", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTitulo.Location = new System.Drawing.Point(189, 38);
+            this.lblTitulo.Location = new System.Drawing.Point(195, 37);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(205, 49);
             this.lblTitulo.TabIndex = 0;
@@ -175,7 +175,7 @@
             // 
             this.lblVez.AutoSize = true;
             this.lblVez.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblVez.Location = new System.Drawing.Point(237, 104);
+            this.lblVez.Location = new System.Drawing.Point(234, 104);
             this.lblVez.Name = "lblVez";
             this.lblVez.Size = new System.Drawing.Size(0, 27);
             this.lblVez.TabIndex = 10;
@@ -187,14 +187,16 @@
             this.txbNome1.Name = "txbNome1";
             this.txbNome1.Size = new System.Drawing.Size(100, 23);
             this.txbNome1.TabIndex = 1;
+            this.txbNome1.Click += new System.EventHandler(this.txbNome1_Click);
             this.txbNome1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbNome1_KeyPress);
             // 
             // txbNome2
             // 
-            this.txbNome2.Location = new System.Drawing.Point(35, 358);
+            this.txbNome2.Location = new System.Drawing.Point(35, 364);
             this.txbNome2.Name = "txbNome2";
             this.txbNome2.Size = new System.Drawing.Size(100, 23);
             this.txbNome2.TabIndex = 2;
+            this.txbNome2.Click += new System.EventHandler(this.txbNome2_Click);
             this.txbNome2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txbNome2_KeyPress);
             // 
             // lblJogador1
@@ -211,7 +213,7 @@
             // 
             this.lblJogador2.AutoSize = true;
             this.lblJogador2.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblJogador2.Location = new System.Drawing.Point(35, 328);
+            this.lblJogador2.Location = new System.Drawing.Point(35, 334);
             this.lblJogador2.Name = "lblJogador2";
             this.lblJogador2.Size = new System.Drawing.Size(102, 27);
             this.lblJogador2.TabIndex = 14;
@@ -246,7 +248,7 @@
             this.lblSimboloO.BackColor = System.Drawing.Color.Transparent;
             this.lblSimboloO.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblSimboloO.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblSimboloO.Location = new System.Drawing.Point(48, 384);
+            this.lblSimboloO.Location = new System.Drawing.Point(48, 390);
             this.lblSimboloO.Name = "lblSimboloO";
             this.lblSimboloO.Size = new System.Drawing.Size(0, 21);
             this.lblSimboloO.TabIndex = 17;

@@ -13,9 +13,9 @@ namespace JogoDaVelha
 
         private void txbNome1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (txbNome1.Text != "" && ((e.KeyChar == (char)Keys.Enter) || (e.KeyChar == (char)Keys.Tab)))
+            if (txbNome1.Text != "" && ((e.KeyChar == (char)Keys.Enter)))
             {
-                lblSimboloX.Text = $"{txbNome1.Text},\nvocê é o X";
+                lblSimboloX.Text = $"{txbNome1.Text},\nvocê é o 'X'";
                 txbNome1.ReadOnly = true;
                 txbNome2.Focus();
             }
@@ -31,7 +31,7 @@ namespace JogoDaVelha
         {
             if (txbNome2.Text != "" && ((e.KeyChar == (char)Keys.Enter)))
             {
-                lblSimboloO.Text = $"{txbNome2.Text},\nvocê é o O";
+                lblSimboloO.Text = $"{txbNome2.Text},\nvocê é o 'O'";
                 txbNome2.ReadOnly = true;
             }
 
@@ -339,6 +339,37 @@ namespace JogoDaVelha
         private void btnSair_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void txbNome2_Click(object sender, EventArgs e)
+        {
+            if (txbNome1.Text != "")
+            {
+                lblSimboloX.Text = $"{txbNome1.Text},\nvocê é o 'X'";
+                txbNome1.ReadOnly = true;
+                txbNome2.Focus();
+            }
+
+            if (lblSimboloX.Text != "" && lblSimboloO.Text != "")
+            {
+                lblNomes.Text = "Vamos jogar!\nClique em\numa posição";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
+            }
+        }
+
+        private void txbNome1_Click(object sender, EventArgs e)
+        {
+            if (txbNome2.Text != "")
+            {
+                lblSimboloO.Text = $"{txbNome2.Text},\nvocê é o 'O'";
+                txbNome2.ReadOnly = true;
+            }
+
+            if (lblSimboloX.Text != "" && lblSimboloO.Text != "")
+            {
+                lblNomes.Text = "Vamos jogar!\nClique em\numa posição";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
+            }
         }
     }
 }
