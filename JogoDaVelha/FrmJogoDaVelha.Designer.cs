@@ -50,7 +50,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnRecomecar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
-            this.lblComecar = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,8 +66,9 @@
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn1.Location = new System.Drawing.Point(174, 166);
+            this.btn1.Location = new System.Drawing.Point(174, 172);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(75, 75);
             this.btn1.TabIndex = 20;
@@ -78,8 +78,9 @@
             // btn2
             // 
             this.btn2.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn2.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn2.Location = new System.Drawing.Point(255, 166);
+            this.btn2.Location = new System.Drawing.Point(255, 172);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(75, 75);
             this.btn2.TabIndex = 2;
@@ -89,8 +90,9 @@
             // btn3
             // 
             this.btn3.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn3.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn3.Location = new System.Drawing.Point(336, 166);
+            this.btn3.Location = new System.Drawing.Point(336, 172);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(75, 75);
             this.btn3.TabIndex = 3;
@@ -100,8 +102,9 @@
             // btn4
             // 
             this.btn4.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn4.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn4.Location = new System.Drawing.Point(174, 247);
+            this.btn4.Location = new System.Drawing.Point(174, 253);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(75, 75);
             this.btn4.TabIndex = 4;
@@ -111,8 +114,9 @@
             // btn5
             // 
             this.btn5.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn5.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn5.Location = new System.Drawing.Point(255, 247);
+            this.btn5.Location = new System.Drawing.Point(255, 253);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(75, 75);
             this.btn5.TabIndex = 5;
@@ -122,8 +126,9 @@
             // btn6
             // 
             this.btn6.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn6.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn6.Location = new System.Drawing.Point(336, 247);
+            this.btn6.Location = new System.Drawing.Point(336, 253);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(75, 75);
             this.btn6.TabIndex = 6;
@@ -133,8 +138,9 @@
             // btn7
             // 
             this.btn7.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn7.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn7.Location = new System.Drawing.Point(174, 328);
+            this.btn7.Location = new System.Drawing.Point(174, 334);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(75, 75);
             this.btn7.TabIndex = 7;
@@ -144,8 +150,9 @@
             // btn8
             // 
             this.btn8.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn8.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn8.Location = new System.Drawing.Point(255, 328);
+            this.btn8.Location = new System.Drawing.Point(255, 334);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(75, 75);
             this.btn8.TabIndex = 8;
@@ -155,8 +162,9 @@
             // btn9
             // 
             this.btn9.BackColor = System.Drawing.Color.SandyBrown;
+            this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn9.Font = new System.Drawing.Font("Showcard Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn9.Location = new System.Drawing.Point(336, 328);
+            this.btn9.Location = new System.Drawing.Point(336, 334);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(75, 75);
             this.btn9.TabIndex = 9;
@@ -167,7 +175,7 @@
             // 
             this.lblVez.AutoSize = true;
             this.lblVez.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblVez.Location = new System.Drawing.Point(225, 103);
+            this.lblVez.Location = new System.Drawing.Point(237, 104);
             this.lblVez.Name = "lblVez";
             this.lblVez.Size = new System.Drawing.Size(0, 27);
             this.lblVez.TabIndex = 10;
@@ -175,7 +183,7 @@
             // 
             // txbNome1
             // 
-            this.txbNome1.Location = new System.Drawing.Point(34, 261);
+            this.txbNome1.Location = new System.Drawing.Point(35, 264);
             this.txbNome1.Name = "txbNome1";
             this.txbNome1.Size = new System.Drawing.Size(100, 23);
             this.txbNome1.TabIndex = 1;
@@ -183,7 +191,7 @@
             // 
             // txbNome2
             // 
-            this.txbNome2.Location = new System.Drawing.Point(34, 344);
+            this.txbNome2.Location = new System.Drawing.Point(35, 358);
             this.txbNome2.Name = "txbNome2";
             this.txbNome2.Size = new System.Drawing.Size(100, 23);
             this.txbNome2.TabIndex = 2;
@@ -193,7 +201,7 @@
             // 
             this.lblJogador1.AutoSize = true;
             this.lblJogador1.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblJogador1.Location = new System.Drawing.Point(34, 231);
+            this.lblJogador1.Location = new System.Drawing.Point(35, 234);
             this.lblJogador1.Name = "lblJogador1";
             this.lblJogador1.Size = new System.Drawing.Size(102, 27);
             this.lblJogador1.TabIndex = 13;
@@ -203,7 +211,7 @@
             // 
             this.lblJogador2.AutoSize = true;
             this.lblJogador2.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblJogador2.Location = new System.Drawing.Point(34, 314);
+            this.lblJogador2.Location = new System.Drawing.Point(35, 328);
             this.lblJogador2.Name = "lblJogador2";
             this.lblJogador2.Size = new System.Drawing.Size(102, 27);
             this.lblJogador2.TabIndex = 14;
@@ -211,37 +219,38 @@
             // 
             // lblNomes
             // 
-            this.lblNomes.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.lblNomes.AutoSize = true;
+            this.lblNomes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNomes.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblNomes.Location = new System.Drawing.Point(3, 166);
+            this.lblNomes.Location = new System.Drawing.Point(16, 156);
             this.lblNomes.Name = "lblNomes";
-            this.lblNomes.Size = new System.Drawing.Size(168, 46);
+            this.lblNomes.Size = new System.Drawing.Size(140, 69);
             this.lblNomes.TabIndex = 15;
-            this.lblNomes.Text = "Digite o nome dos \r\njogadores para começar\r\n";
+            this.lblNomes.Text = "Digite o nome do \r\njogador e pressione \r\nEnter";
             this.lblNomes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblSimboloX
             // 
             this.lblSimboloX.AutoSize = true;
             this.lblSimboloX.BackColor = System.Drawing.Color.Transparent;
-            this.lblSimboloX.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSimboloX.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblSimboloX.ForeColor = System.Drawing.Color.Black;
-            this.lblSimboloX.Location = new System.Drawing.Point(34, 285);
+            this.lblSimboloX.Location = new System.Drawing.Point(48, 290);
             this.lblSimboloX.Name = "lblSimboloX";
-            this.lblSimboloX.Size = new System.Drawing.Size(0, 23);
+            this.lblSimboloX.Size = new System.Drawing.Size(0, 21);
             this.lblSimboloX.TabIndex = 16;
+            this.lblSimboloX.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblSimboloO
             // 
             this.lblSimboloO.AutoSize = true;
             this.lblSimboloO.BackColor = System.Drawing.Color.Transparent;
-            this.lblSimboloO.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSimboloO.Font = new System.Drawing.Font("Segoe Print", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblSimboloO.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblSimboloO.Location = new System.Drawing.Point(34, 370);
+            this.lblSimboloO.Location = new System.Drawing.Point(48, 384);
             this.lblSimboloO.Name = "lblSimboloO";
-            this.lblSimboloO.Size = new System.Drawing.Size(0, 23);
+            this.lblSimboloO.Size = new System.Drawing.Size(0, 21);
             this.lblSimboloO.TabIndex = 17;
+            this.lblSimboloO.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox1
             // 
@@ -256,8 +265,9 @@
             // btnRecomecar
             // 
             this.btnRecomecar.BackColor = System.Drawing.Color.Chocolate;
+            this.btnRecomecar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRecomecar.Font = new System.Drawing.Font("Pristina", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnRecomecar.Location = new System.Drawing.Point(103, 416);
+            this.btnRecomecar.Location = new System.Drawing.Point(103, 445);
             this.btnRecomecar.Name = "btnRecomecar";
             this.btnRecomecar.Size = new System.Drawing.Size(105, 35);
             this.btnRecomecar.TabIndex = 22;
@@ -268,8 +278,9 @@
             // btnSair
             // 
             this.btnSair.BackColor = System.Drawing.Color.Chocolate;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSair.Font = new System.Drawing.Font("Pristina", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSair.Location = new System.Drawing.Point(225, 416);
+            this.btnSair.Location = new System.Drawing.Point(225, 445);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(105, 35);
             this.btnSair.TabIndex = 23;
@@ -277,24 +288,14 @@
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // lblComecar
-            // 
-            this.lblComecar.AutoSize = true;
-            this.lblComecar.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblComecar.Location = new System.Drawing.Point(15, 179);
-            this.lblComecar.Name = "lblComecar";
-            this.lblComecar.Size = new System.Drawing.Size(0, 33);
-            this.lblComecar.TabIndex = 24;
-            // 
             // frmJogoDaVelha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(435, 463);
+            this.ClientSize = new System.Drawing.Size(435, 492);
             this.ControlBox = false;
-            this.Controls.Add(this.lblComecar);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnRecomecar);
             this.Controls.Add(this.pictureBox1);
@@ -348,6 +349,5 @@
         private PictureBox pictureBox1;
         private Button btnRecomecar;
         private Button btnSair;
-        private Label lblComecar;
     }
 }

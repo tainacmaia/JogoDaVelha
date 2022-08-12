@@ -15,32 +15,30 @@ namespace JogoDaVelha
         {
             if (txbNome1.Text != "" && ((e.KeyChar == (char)Keys.Enter) || (e.KeyChar == (char)Keys.Tab)))
             {
-                lblSimboloX.Text = $"{txbNome1.Text}, você é o X";
+                lblSimboloX.Text = $"{txbNome1.Text},\nvocê é o X";
                 txbNome1.ReadOnly = true;
                 txbNome2.Focus();
             }
 
             if (lblSimboloX.Text != "" && lblSimboloO.Text != "")
             {
-                lblNomes.Text = "";
-                lblComecar.Text = "Vamos jogar!";
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblNomes.Text = "Vamos jogar!\nClique em\numa posição";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
             }
         }
 
         private void txbNome2_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (txbNome2.Text != "" && ((e.KeyChar == (char)Keys.Enter) || (e.KeyChar == (char)Keys.Tab)))
+            if (txbNome2.Text != "" && ((e.KeyChar == (char)Keys.Enter)))
             {
-                lblSimboloO.Text = $"{txbNome2.Text}, você é o O";
+                lblSimboloO.Text = $"{txbNome2.Text},\nvocê é o O";
                 txbNome2.ReadOnly = true;
             }
 
             if (lblSimboloX.Text != "" && lblSimboloO.Text != "")
             {
-                lblNomes.Text = "";
-                lblComecar.Text = "Vamos jogar!";
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblNomes.Text = "Vamos jogar!\nClique em\numa posição";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
             }
         }
 
@@ -52,14 +50,14 @@ namespace JogoDaVelha
             {
                 btn1.Text = "X";
                 matriz[0, 0] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn1.Text) && !fimDeJogo)
             {
                 btn1.Text = "O";
                 matriz[0, 0] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -73,14 +71,14 @@ namespace JogoDaVelha
             {
                 btn2.Text = "X";
                 matriz[0, 1] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn2.Text) && !fimDeJogo)
             {
                 btn2.Text = "O";
                 matriz[0, 1] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -94,14 +92,14 @@ namespace JogoDaVelha
             {
                 btn3.Text = "X";
                 matriz[0, 2] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn3.Text) && !fimDeJogo)
             {
                 btn3.Text = "O";
                 matriz[0, 2] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -115,14 +113,14 @@ namespace JogoDaVelha
             {
                 btn4.Text = "X";
                 matriz[1, 0] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn4.Text) && !fimDeJogo)
             {
                 btn4.Text = "O";
                 matriz[1, 0] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -136,14 +134,14 @@ namespace JogoDaVelha
             {
                 btn5.Text = "X";
                 matriz[1, 1] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn5.Text) && !fimDeJogo)
             {
                 btn5.Text = "O";
                 matriz[1, 1] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -157,14 +155,14 @@ namespace JogoDaVelha
             {
                 btn6.Text = "X";
                 matriz[1, 2] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn6.Text) && !fimDeJogo)
             {
                 btn6.Text = "O";
                 matriz[1, 2] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -178,14 +176,14 @@ namespace JogoDaVelha
             {
                 btn7.Text = "X";
                 matriz[2, 0] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn7.Text) && !fimDeJogo)
             {
                 btn7.Text = "O";
                 matriz[2, 0] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -199,14 +197,14 @@ namespace JogoDaVelha
             {
                 btn8.Text = "X";
                 matriz[2, 1] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn8.Text) && !fimDeJogo)
             {
                 btn8.Text = "O";
                 matriz[2, 1] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
@@ -220,30 +218,26 @@ namespace JogoDaVelha
             {
                 btn9.Text = "X";
                 matriz[2, 2] = 1;
-                lblVez.Text = $"É a sua vez, {txbNome2.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome2.Text}";
                 count++;
             }
             if (count % 2 != 0 && EstaVazio(btn9.Text) && !fimDeJogo)
             {
                 btn9.Text = "O";
                 matriz[2, 2] = 2;
-                lblVez.Text = $"É a sua vez, {txbNome1.Text}";
+                lblVez.Text = $"É a sua vez,\n{txbNome1.Text}";
                 count++;
             }
             ChecaVitoria();
         }
 
-        private void ComecaJogo()
+        private void ComecaJogo() //será que precisa?
         {
-            if (lblSimboloX.Text == "" && lblSimboloO.Text == "")
-            {
-                lblVez.Text = "Insira o nome dos\njogadores para começar";
-            }
             if (lblSimboloX.Text == "")
             {
                 txbNome1.Focus();
             }
-            else
+            if (lblSimboloX.Text != "" && lblSimboloX.Text == "")
             {
                 txbNome2.Focus();
             }
