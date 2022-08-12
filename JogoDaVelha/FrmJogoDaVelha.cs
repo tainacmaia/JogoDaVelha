@@ -274,12 +274,14 @@ namespace JogoDaVelha
                         if (matriz[i, 0] == 1)
                         {
                             lblVez.Text = $"Fim de Jogo!\n{txbNome1.Text} venceu!";
+                            pictureBox2.Visible = true;
                             fimDeJogo = true;
                             break;
                         }
                         if (matriz[i, 0] == 2)
                         {
                             lblVez.Text = $"Fim de Jogo!\n{txbNome2.Text} venceu!";
+                            pictureBox2.Visible = true;
                             fimDeJogo = true;
                             break;
                         }
@@ -291,11 +293,13 @@ namespace JogoDaVelha
                         {
                             lblVez.Text = $"Fim de Jogo!\n{txbNome1.Text} venceu!";
                             fimDeJogo = true;
+                            pictureBox2.Visible = true;
                             break;
                         }
                         if (matriz[0, i] == 2)
                         {
                             lblVez.Text = $"Fim de Jogo!\n{txbNome2.Text} venceu!";
+                            pictureBox2.Visible = true;
                             fimDeJogo = true;
                             break;
                         }
@@ -308,12 +312,14 @@ namespace JogoDaVelha
                         if (matriz[1, 1] == 1)
                         {
                             lblVez.Text = $"Fim de Jogo!\n{txbNome1.Text} venceu!";
+                            pictureBox2.Visible = true;
                             fimDeJogo = true;
                             break;
                         }
                         if (matriz[1, 1] == 2)
                         {
                             lblVez.Text = $"Fim de Jogo!\n{txbNome2.Text} venceu!";
+                            pictureBox2.Visible = true;
                             fimDeJogo = true;
                             break;
                         }
