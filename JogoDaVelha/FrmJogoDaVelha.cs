@@ -237,7 +237,7 @@ namespace JogoDaVelha
         {
             if (lblSimboloX.Text == "" && lblSimboloO.Text == "")
             {
-                lblVez.Text = "Insira o nome dos \njogadores para começar";
+                lblVez.Text = "Insira o nome dos\njogadores para começar";
             }
             if (lblSimboloX.Text == "")
             {
@@ -271,7 +271,7 @@ namespace JogoDaVelha
 
         private void ChecaVitoria()
         {
-            if (count >= 5)
+            if (count >= 5 && fimDeJogo == false)
             {
                 for (int i = 0; i < 3; i++)
                 {
@@ -279,13 +279,13 @@ namespace JogoDaVelha
                     {
                         if (matriz[i, 0] == 1)
                         {
-                            lblVez.Text = $"Fim de Jogo! {txbNome1.Text} venceu!";
+                            lblVez.Text = $"Fim de Jogo!\n{txbNome1.Text} venceu!";
                             fimDeJogo = true;
                             break;
                         }
                         if (matriz[i, 0] == 2)
                         {
-                            lblVez.Text = $"Fim de Jogo!  {txbNome2.Text} venceu!";
+                            lblVez.Text = $"Fim de Jogo!\n{txbNome2.Text} venceu!";
                             fimDeJogo = true;
                             break;
                         }
@@ -325,12 +325,11 @@ namespace JogoDaVelha
                         }
 
                     }
-                    else if (count == 9 && fimDeJogo == false)
-                    {
-                        lblVez.Text = $"Fim de Jogo!\nEMPATE";
-                        fimDeJogo = true;
-                        break;
-                    }
+                }
+                if (count == 9 && fimDeJogo == false)
+                {
+                    lblVez.Text = $"Fim de Jogo!\nEMPATE";
+                    fimDeJogo = true;
                 }
             }
         }
